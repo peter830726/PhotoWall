@@ -1,0 +1,10 @@
+language: objective-c
+osx_image: xcode8.2
+xcode_workspace: PhotoWall2.xcworkspace
+xcode_scheme: PhotoWall2
+
+script:
+  - xcodebuild -scheme PhotoWall -workspace photowall.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=10.0' build test
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)

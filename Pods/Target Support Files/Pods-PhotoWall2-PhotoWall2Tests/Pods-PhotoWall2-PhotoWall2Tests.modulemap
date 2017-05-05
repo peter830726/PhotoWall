@@ -1,0 +1,6 @@
+framework module Pods_PhotoWall2_PhotoWall2Tests {
+  umbrella header "Pods-PhotoWall2-PhotoWall2Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
