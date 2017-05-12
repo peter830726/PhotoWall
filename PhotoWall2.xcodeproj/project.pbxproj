@@ -19,6 +19,7 @@
 		3F7A2D621EC59951001A4E9B /* RestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A2D611EC59951001A4E9B /* RestClient.m */; };
 		3F7A2D651EC59A3D001A4E9B /* RestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A2D641EC59A3D001A4E9B /* RestRequest.m */; };
 		3F7A2D681EC59D15001A4E9B /* RestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A2D671EC59D15001A4E9B /* RestResponse.m */; };
+		3F7A2D6D1EC5A967001A4E9B /* RestRequestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A2D6C1EC5A967001A4E9B /* RestRequestTest.m */; };
 		A899231761CD5D4FD7751EC7 /* Pods_PhotoWall2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A480F020359C4B1B7EF6746F /* Pods_PhotoWall2.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		3F7A2D641EC59A3D001A4E9B /* RestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestRequest.m; path = RestClient/RestRequest.m; sourceTree = "<group>"; };
 		3F7A2D661EC59D15001A4E9B /* RestResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestResponse.h; path = RestClient/RestResponse.h; sourceTree = "<group>"; };
 		3F7A2D671EC59D15001A4E9B /* RestResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestResponse.m; path = RestClient/RestResponse.m; sourceTree = "<group>"; };
+		3F7A2D6C1EC5A967001A4E9B /* RestRequestTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestRequestTest.m; path = RestClient/RestRequestTest.m; sourceTree = "<group>"; };
 		6333B22DE98EE0329C0C87CF /* Pods-PhotoWall2-PhotoWall2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWall2-PhotoWall2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoWall2-PhotoWall2Tests/Pods-PhotoWall2-PhotoWall2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		691D4B42A2F33ED4776380C7 /* Pods-PhotoWall2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWall2.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoWall2/Pods-PhotoWall2.release.xcconfig"; sourceTree = "<group>"; };
 		A480F020359C4B1B7EF6746F /* Pods_PhotoWall2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoWall2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +134,7 @@
 		3F5F51A61EBC6347002018CF /* PhotoWall2Tests */ = {
 			isa = PBXGroup;
 			children = (
+				3F7A2D691EC5A889001A4E9B /* RestClient */,
 				3F5F51A71EBC6347002018CF /* PhotoWall2Tests.m */,
 				3F5F51A91EBC6347002018CF /* Info.plist */,
 			);
@@ -161,6 +164,14 @@
 				3F7A2D641EC59A3D001A4E9B /* RestRequest.m */,
 				3F7A2D661EC59D15001A4E9B /* RestResponse.h */,
 				3F7A2D671EC59D15001A4E9B /* RestResponse.m */,
+			);
+			name = RestClient;
+			sourceTree = "<group>";
+		};
+		3F7A2D691EC5A889001A4E9B /* RestClient */ = {
+			isa = PBXGroup;
+			children = (
+				3F7A2D6C1EC5A967001A4E9B /* RestRequestTest.m */,
 			);
 			name = RestClient;
 			sourceTree = "<group>";
@@ -401,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F5F51A81EBC6347002018CF /* PhotoWall2Tests.m in Sources */,
+				3F7A2D6D1EC5A967001A4E9B /* RestRequestTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
